@@ -55,6 +55,7 @@ numpy==1.24.4
     #   -r requirements.in
     #   contourpy
     #   matplotlib
+    #   scipy
 packaging==24.2
     # via
     #   ipykernel
@@ -90,6 +91,8 @@ pyzmq==26.2.0
     #   ipykernel
     #   jupyter-client
 rlglue==2.2
+    # via -r requirements.in
+scipy==1.10.1
     # via -r requirements.in
 six==1.16.0
     # via
