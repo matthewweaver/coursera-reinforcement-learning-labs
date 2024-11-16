@@ -5,3 +5,6 @@ tqdm
 ipykernel
 jdc
 scipy
+gym
+Box2D
+pygame

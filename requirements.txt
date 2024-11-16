@@ -8,6 +8,10 @@ asttokens==2.4.1
     # via stack-data
 backcall==0.2.0
     # via ipython
+box2d==2.3.10
+    # via -r requirements.in
+cloudpickle==3.1.0
+    # via gym
 comm==0.2.2
     # via ipykernel
 contourpy==1.1.1
@@ -22,8 +26,14 @@ executing==2.1.0
     # via stack-data
 fonttools==4.55.0
     # via matplotlib
+gym==0.26.2
+    # via -r requirements.in
+gym-notices==0.0.8
+    # via gym
 importlib-metadata==8.5.0
-    # via jupyter-client
+    # via
+    #   gym
+    #   jupyter-client
 importlib-resources==6.4.5
     # via matplotlib
 ipykernel==6.29.5
@@ -54,6 +64,7 @@ numpy==1.24.4
     # via
     #   -r requirements.in
     #   contourpy
+    #   gym
     #   matplotlib
     #   scipy
 packaging==24.2
@@ -78,6 +89,8 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
+pygame==2.6.1
+    # via -r requirements.in
 pygments==2.18.0
     # via ipython
 pyparsing==3.1.4
